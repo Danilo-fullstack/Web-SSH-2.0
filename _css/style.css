@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+  background: url("../_img/bg-grade.png");
+}
+/*---------- Cabeçalho -----------*/
+header {
+  width: 100%;
+  min-height: 430px;
+  background-color: rgba(102, 86, 219, 0.95);
+}
+.logo a {
+  color: white;
+}
+.logo a span {
+  color: rgb(240, 240, 13);
+}
+nav {
+  /* background-color: #7a5ce9; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul .i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul .i i {
+  padding-right: 5px;
+}
+nav ul li a {
+  display: block;
+  padding: 20px 10px;
+  margin: 0 10px;
+  color: white;
+  font-size: 11.5pt;
+}
+.box-welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 350px;
+  font-family: 'Open Sans', sans-serif;
+}
+.box-welcome h3 {
+  color: white;
+  font-size: 18pt;
+}
+.comprar-agora {
+  background-color: #ede91e;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+.comprar-agora a {
+  color: black;
+}
+/* ----------------------------- */
+section {
+  width: 100%;
+  height: 600px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
