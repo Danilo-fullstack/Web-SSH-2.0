@@ -1,1 +1,79 @@
 @charset "UTF-8";
+
+@media screen and (min-width: 720px) {
+    /* Reset */
+    .link-logo, .logo {
+        position: relative;
+        top: auto !important;
+        left: auto !important;
+        display: block;
+    }
+    .burger, input[type="checkbox"] {
+        display: none;
+    }
+    .menu {
+        left: 0;
+        position: relative !important;
+        width: auto !important;
+        height: auto !important;
+    }
+    .menu li {
+        margin: auto;
+    }
+    .menu li a {
+        padding: auto;
+    }
+    .welcome {
+        padding: 0;
+    }
+
+    /* ------------------------------------- */
+    .side-bar {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+    }
+    .align-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5px 110px;
+    }
+    .menu {
+        flex-direction: row;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 11pt;
+        height: auto;
+        align-items: center;
+        display: flex;
+        justify-content: space-around !important;
+        /* margin-left: 30px; */
+    }
+    .menu li {
+        margin-left: 15px;
+    }
+    .menu li i {
+        margin-right: -11px;
+    }
+    .menu li a {
+        text-transform: uppercase;
+        font-size: 10.5pt;
+        padding-right: 0;
+    }
+    .welcome {
+        margin: 100px 0;
+    }
+    .welcome h3 {
+        font-size: 26pt;
+    }
+    .div-digitando {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .comprar-agora {
+        display: inline-flex;
+    }
+}

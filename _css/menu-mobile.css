@@ -1,8 +1,8 @@
 @charset "UTF-8";
 .side-bar {
-    background-image: linear-gradient(to right bottom, rgb(10, 3, 214), rgb(111, 108, 218) , rgb(214, 214, 235));
+    background-image: linear-gradient(to right bottom, rgb(10, 3, 214), rgb(112, 108, 218) , rgb(214, 214, 235));
     width: 100%;
-    min-height: 300px;
+    height: 300px;
 }
 .logo {
     position: absolute;
@@ -10,7 +10,7 @@
     height: 72px;
     top: 12px;
     left: 23px;
-    z-index: 1;
+    z-index: 2;
 }
 .menu {
     left: -100%;
@@ -25,10 +25,19 @@
     background-color: rgb(30, 29, 31);
     font-size: 18pt;
     transition: left .3s ease-out;
+    z-index: 1;
 }
 .menu li {
     margin: 30px 0;
     text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.menu li i {
+    margin-right: -9px;
 }
 .menu li a {
     padding: 15px;
@@ -46,7 +55,7 @@
     right: 0;
     padding-right: 20px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
 }
 .burger div{
     width: 30px;
@@ -65,7 +74,7 @@
     opacity: 0;
     cursor: pointer;
     outline: none;
-    z-index: 1;
+    z-index: 2;
 }
 /* Welcome */
 .welcome {

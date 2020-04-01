@@ -7,3 +7,16 @@ body {
     font-family: Arial, sans-serif;
     overflow-x: hidden;
 }
+.div-digitando {
+    display: inline-flex;
+    max-height: 14.9px;
+    overflow: hidden;
+}
+.side-bar {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.164);
+}
+section {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/7d2e722761.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
     <!-- <script src="https://unpkg.com/feather-icons"></script> -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="./_css/reset.css">
@@ -14,24 +15,28 @@
 </head>
 <body>
     <header class="side-bar">
-        <a href="./index.html" class="link-logo"><img src="./_img/logo.svg " class="logo"></a>
-        <div class="burger">
-            <div></div>
-            <div></div>
-            <div></div>
+        <div class="align-menu">
+            <a href="./index.html" class="link-logo"><img src="./_img/logo.svg " class="logo"></a>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <nav class="side-bar-mobile">
+                <input type="checkbox" id="btn-menu">
+                <ul class="menu">
+                    <li><i class="fas fa-home"></i><a href="./index.html">início</a></li>
+                    <li><i class="fas fa-play-circle"></i><a href="./tutorial.html">tutorial</a></li>
+                    <li><i class="fas fa-address-book"></i><a href="./contato.html">contato</a></li>
+                    <li class="btn-login"><i class="fas fa-sign-in-alt"></i><a href="./login.html">login</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav class="side-bar-mobile">
-            <input type="checkbox" id="btn-menu">
-            <ul class="menu">
-                <li><a href="index.html">início</a></li>
-                <li><a href="#">tutorial</a></li>
-                <li><a href="#">contato</a></li>
-                <li><a href="#">login</a></li>
-            </ul>
-        </nav>
         <div class="welcome">
             <h3>Seja bem vindo a Web SSH</h3>
-            <h5>Confira abaixo nossos serviços</h5>
+            <div class="div-digitando">
+                <h5 id="typed3"></h5>
+            </div>
             <a href="./index.html">
                 <div class="comprar-agora">
                     <i class="fas fa-shopping-cart"></i>

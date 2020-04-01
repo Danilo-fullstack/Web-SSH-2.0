@@ -16,14 +16,40 @@ check.addEventListener('click',function() {
   }
 })
 
+//----------------------------- Texto Digitado -----------------------------------//
+// Repositório: https://github.com/mattboldt/typed.js
+var typed3 = new Typed('#typed3', {
+  strings: ["Confira abaixo nossos serviços", "Temos servidores de alta perfomance"],
+  typeSpeed: 50,
+  backSpeed: 20,
+  smartBackspace: true,
+  loop: true
+});
 //-----------------------------------------------------------------//
 
 
 
+//-----------------------------------------------------------------//
+/*
+function textoDigitado(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
 
+  //for(r=0; r<=5; r++) {}
 
+    textoArray.forEach((letra, i) => {
+      for(r=0; r<=0; r++) {
+        setTimeout(() => elemento.innerHTML += letra, 75 * i)
+      }
+    });
+}
 
+const texto = document.querySelector('.welcome h5');
+textoDigitado(texto);
+*/
+//-----------------------------------------------------------------//
 
+//------------ Rascunho ------------------------
 /*
   if (check.checked == true){ 
     window.alert('CHECOU, DEU CERTO!!!');
